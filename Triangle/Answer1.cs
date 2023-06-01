@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace Triangle
+public class Triangle1
 {
-    internal class Class1
+    public static bool IsTriangle(int a, int b, int c) // можно было рил с помощью сортировки
     {
+        var lengths = new List<int>() { a, b, c };
+        lengths.Sort();
+        return lengths[0] + lengths[1] > lengths[2];
     }
 }

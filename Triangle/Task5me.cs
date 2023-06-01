@@ -18,7 +18,7 @@ namespace Triangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Triangle1.IsTriangle(4, 2, 3));
+            Console.WriteLine(Triangle.IsTriangle(1, 0, 3));
             Console.ReadKey();
         }
     }
@@ -26,13 +26,9 @@ namespace Triangle
     {
         public static bool IsTriangle(int a, int b, int c)
         {
-            return Math.Max(Math.Max(b, c), a) < Math.Min(Math.Min(b, c), a) + Math.Min(Math.Max(b, c), a);
-        }
-    }
-    public class Triangle1
-    {
-        public static bool IsTriangle(int a, int b, int c)
-        {
+            if (a <= 0 || b <= 0 || c <= 0)
+                return false;
+
             int max = a > b ? a : b;
             max = max > c ? max : c;
 

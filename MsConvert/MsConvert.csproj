@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1A9BE3CB-B72C-4742-B503-503ACC58592A}</ProjectGuid>
+    <ProjectGuid>{BB4F95AA-97AD-4797-9B06-5E5F2F833D05}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Triangle</RootNamespace>
-    <AssemblyName>Triangle</AssemblyName>
+    <RootNamespace>MsConvert</RootNamespace>
+    <AssemblyName>MsConvert</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer1.cs" />
-    <Compile Include="Task5me.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Task6maybeMe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
