@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{748A8F0F-2920-45D6-8611-2D67B17F5D91}</ProjectGuid>
+    <ProjectGuid>{F575EA72-BCB4-45FC-B4E8-264B4FDDA6F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeTasks</RootNamespace>
-    <AssemblyName>CodeTasks</AssemblyName>
+    <RootNamespace>Lepestki</RootNamespace>
+    <AssemblyName>Lepestki</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Answer1.cs" />
+    <Compile Include="Answer2.cs" />
+    <Compile Include="Task4me.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
