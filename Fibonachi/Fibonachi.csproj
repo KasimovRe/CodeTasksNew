@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13CDEED5-2C7C-4B10-A23E-ED4B1E8A9CAE}</ProjectGuid>
+    <ProjectGuid>{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SqrtPwArray</RootNamespace>
-    <AssemblyName>SqrtPwArray</AssemblyName>
+    <RootNamespace>Fibonachi</RootNamespace>
+    <AssemblyName>Fibonachi</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer1.cs" />
-    <Compile Include="Task9me.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

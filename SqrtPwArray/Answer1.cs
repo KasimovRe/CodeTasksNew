@@ -1,12 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SqrtPwArray
 {
-    internal class Class1
+    public class Kata1 // с помощью селекта, который перебирает массив
+                       // где х это все значения. и конвертируем в массив
+                       // то есть возвращаем массив
     {
+        public static int[] SquareOrSquareRoot(int[] array)
+        {
+            return array.Select(x => (int)(Math.Sqrt(x) % 1 == 0 ? Math.Sqrt(x) : Math.Pow(x, 2))).ToArray(); 
+        }
     }
 }
+    
