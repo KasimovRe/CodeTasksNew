@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB4F95AA-97AD-4797-9B06-5E5F2F833D05}</ProjectGuid>
+    <ProjectGuid>{13CDEED5-2C7C-4B10-A23E-ED4B1E8A9CAE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MsConvert</RootNamespace>
-    <AssemblyName>MsConvert</AssemblyName>
+    <RootNamespace>SqrtPwArray</RootNamespace>
+    <AssemblyName>SqrtPwArray</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer1.cs" />
-    <Compile Include="Task6maybeMe.cs" />
+    <Compile Include="Task9me.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

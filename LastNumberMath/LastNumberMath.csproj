@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB4F95AA-97AD-4797-9B06-5E5F2F833D05}</ProjectGuid>
+    <ProjectGuid>{004B74B0-64D4-4907-AF4C-7E0444085DE4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MsConvert</RootNamespace>
-    <AssemblyName>MsConvert</AssemblyName>
+    <RootNamespace>LastNumberMath</RootNamespace>
+    <AssemblyName>LastNumberMath</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,8 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer1.cs" />
-    <Compile Include="Task6maybeMe.cs" />
+    <Compile Include="Task8me.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

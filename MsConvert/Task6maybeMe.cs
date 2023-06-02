@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MsConvert
 {
+    // конвертировать часы минуты и секунды в миллисекунды
     internal class Task6maybeMe
     {
         static void Main(string[] args)
