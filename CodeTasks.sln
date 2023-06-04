@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqrtPwArray", "SqrtPwArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonachi", "Fibonachi\Fibonachi.csproj", "{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{537AE92C-5230-4E84-9180-3540BCCF463C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537AE92C-5230-4E84-9180-3540BCCF463C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537AE92C-5230-4E84-9180-3540BCCF463C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537AE92C-5230-4E84-9180-3540BCCF463C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537AE92C-5230-4E84-9180-3540BCCF463C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{004B74B0-64D4-4907-AF4C-7E0444085DE4} = {DA19221C-2279-443B-BFFB-0A6670517CDE}
 		{13CDEED5-2C7C-4B10-A23E-ED4B1E8A9CAE} = {8A98A115-913F-4318-8E9C-6A5C89BEAD48}
 		{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3} = {8A98A115-913F-4318-8E9C-6A5C89BEAD48}
+		{537AE92C-5230-4E84-9180-3540BCCF463C} = {DA19221C-2279-443B-BFFB-0A6670517CDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0CD621C-0BEA-464D-8829-C3326F763A93}

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Fibonachi
 {
-    internal class Program
+    internal class Task10me
     {
         // возвращает n-й элемент последовательности Фибоначчи
         // 0 + 1 = 1
