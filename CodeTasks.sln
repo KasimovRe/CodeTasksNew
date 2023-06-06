@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsNazad", "WordsNazad\Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListSortInt", "ListSortInt\ListSortInt.csproj", "{246E18C2-3596-4DD3-9768-DE76CC42FFA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinSq", "LatinSq\LatinSq.csproj", "{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{246E18C2-3596-4DD3-9768-DE76CC42FFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{246E18C2-3596-4DD3-9768-DE76CC42FFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{246E18C2-3596-4DD3-9768-DE76CC42FFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{537AE92C-5230-4E84-9180-3540BCCF463C} = {DA19221C-2279-443B-BFFB-0A6670517CDE}
 		{8B79C625-8723-4FC5-A5BB-E69A37D1AFEC} = {8A98A115-913F-4318-8E9C-6A5C89BEAD48}
 		{246E18C2-3596-4DD3-9768-DE76CC42FFA2} = {8A98A115-913F-4318-8E9C-6A5C89BEAD48}
+		{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93} = {8A98A115-913F-4318-8E9C-6A5C89BEAD48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0CD621C-0BEA-464D-8829-C3326F763A93}

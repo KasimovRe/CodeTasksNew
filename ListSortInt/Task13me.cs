@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListSortInt
 {
-    internal class Program
+    internal class Task13me
     {
         static void Main(string[] args)
         {
@@ -17,16 +17,23 @@ namespace ListSortInt
     {
         public static IEnumerable<int> GetIntegersFromList(List<object> listOfItems)
         {
-            //new string(str.ToArray().Reverse().ToArray()
-            // Enumerable.Range(1, 10).Select(x => x * x);
             List<int> listofInts = new List<int>();
             foreach (object item in listOfItems)
             {
                 if (item is int)
+                {
                     listofInts.Add((int)item);
+                }
             }
 
             return listofInts;
+        }
+    }
+    public class ListFilterer1 // ответ с сайта
+    {
+        public static IEnumerable<int> GetIntegersFromList(List<object> listOfItems)
+        {
+            return listOfItems.OfType<int>();
         }
     }
 }

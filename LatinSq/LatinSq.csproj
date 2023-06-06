@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{246E18C2-3596-4DD3-9768-DE76CC42FFA2}</ProjectGuid>
+    <ProjectGuid>{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ListSortInt</RootNamespace>
-    <AssemblyName>ListSortInt</AssemblyName>
+    <RootNamespace>LatinSq</RootNamespace>
+    <AssemblyName>LatinSq</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Task13me.cs" />
+    <Compile Include="Task12me.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
