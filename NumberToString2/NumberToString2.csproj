@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B83B7DD-B60D-433F-9DC5-BA8BC6A02F93}</ProjectGuid>
+    <ProjectGuid>{402E1F21-A3CF-4F15-8566-6630EC971780}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LatinSq</RootNamespace>
-    <AssemblyName>LatinSq</AssemblyName>
+    <RootNamespace>NumberToString2</RootNamespace>
+    <AssemblyName>NumberToString2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Task14me.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

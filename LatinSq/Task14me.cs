@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LatinSq
 {
-    internal class Task12me
+    internal class Task14me
     {
         static void Main(string[] args)
         {
