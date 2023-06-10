@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DFAC7BF5-30EB-4EF8-B3E6-A63079C922F3}</ProjectGuid>
+    <ProjectGuid>{2D0A8A18-CC8C-4306-88DB-17E855327707}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Fibonachi</RootNamespace>
-    <AssemblyName>Fibonachi</AssemblyName>
+    <RootNamespace>UniqueInOrder</RootNamespace>
+    <AssemblyName>UniqueInOrder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer1.cs" />
-    <Compile Include="Task10me.cs" />
+    <Compile Include="Task19me.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
