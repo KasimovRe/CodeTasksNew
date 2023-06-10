@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CharsToString
 {
-    internal class Program
+    internal class Task16me
     {
         static void Main(string[] args)
         {

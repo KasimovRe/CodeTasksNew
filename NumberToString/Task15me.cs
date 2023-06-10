@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NumberToString
 {
-    internal class Program
+    internal class Task15me
     {
         static void Main(string[] args)
         {

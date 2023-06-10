@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{430FDE6F-AE21-4CAC-B177-EFFEDCA67C4E}</ProjectGuid>
+    <ProjectGuid>{713778A0-13F5-4A9B-92CF-AD998BC46A5C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CharsToString</RootNamespace>
-    <AssemblyName>CharsToString</AssemblyName>
+    <RootNamespace>SumToRange</RootNamespace>
+    <AssemblyName>SumToRange</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Task16me.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

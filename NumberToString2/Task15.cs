@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NumberToString2
 {
-    internal class Program
+    internal class Task15
     {
         static string[] nums_1_9 = "ноль один два три четыре пять шесть семь восемь девять".Split();
         static string[] nums_10_19 = "десять одиннадцать двенадцать тринадцать четырнадцать пятнадцать шестнадцать семнадцать восемнадцать девятнадцать".Split();
