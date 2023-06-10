@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SumToRange
 {
-    internal class Program
+    internal class Task18me
     {
         static void Main(string[] args)
         {
